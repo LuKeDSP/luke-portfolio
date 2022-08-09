@@ -13,6 +13,7 @@
 
 .apresentacao__conteudo___imagem {
     margin-top: 10px;
+    border-radius: 5px;
     background-image: url(../img/eu.jpg);
     background-size: cover;
     background-position: center;
@@ -42,5 +43,5 @@
     word-spacing: -2px;
     line-height: 1.0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #777777;
+    color: #aeb2b5;
 }

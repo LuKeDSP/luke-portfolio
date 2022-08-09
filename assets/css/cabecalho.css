@@ -6,7 +6,7 @@
 body {
     width: 100vw;
     height: 100%;
-    background-color: #1c0736;
+    background-color: #0a293e;
 }
 
 ::-webkit-scrollbar {
@@ -26,16 +26,18 @@ body {
 .cabecalho__titulo {
     display: flex;
     width: 15%;
+    padding: 0 0 0 50px;
     justify-content: center;
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: #cdd1d1;
 }
 
 .cabecalho__menu {
     display: flex;
+    padding: 0 50px 0 0;
     justify-content: space-around;
     list-style: none;
     width: 35%;
@@ -46,7 +48,7 @@ body {
     text-transform: uppercase;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #a1a1a1;
+    color: #aeb2b5;
     background-color: #00000000;
 }
 
