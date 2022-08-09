@@ -13,7 +13,7 @@
 
 .apresentacao__conteudo___imagem {
     margin-top: 10px;
-    background-image: url(../img/eu.jpg);
+    background-image: url(/img/eu.jpg);
     background-size: cover;
     background-position: center;
     width: 300px;
