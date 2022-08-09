@@ -1,0 +1,46 @@
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    height: calc(100vh - 50px);
+    background-color: #00000050;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    align-items: center;
+}
+
+.apresentacao__conteudo___imagem {
+    margin-top: 10px;
+    background-image: url(/assets/img/eu.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+}
+
+.apresentacao__conteudo___titulo {
+    margin: 0 0 0 10px;
+}
+
+.apresentacao__conteudo___titulo h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    word-spacing: -2px;
+    word-wrap: break-word;
+    line-height: .9;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.apresentacao__conteudo___titulo p { 
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    word-spacing: -2px;
+    line-height: 1.0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #777777;
+}

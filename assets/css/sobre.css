@@ -1,0 +1,194 @@
+.titulos {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.sobre__bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.sobre__bio p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.sobre__habilidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre__habilidade___linguagem {
+    display: grid;
+    align-items: center;
+    line-height: .2;
+    grid-template-columns: 100px 150px 150px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px;
+}
+
+.sobre__habilidade___linguagem____html,
+.sobre__habilidade___linguagem____css,
+.sobre__habilidade___linguagem____javascript,
+.sobre__habilidade___linguagem____photoshop,
+.sobre__habilidade___linguagem____coreldraw,
+.sobre__habilidade___linguagem____illustrator {
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.sobre__habilidade___linguagem____html {
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+.sobre__habilidade___linguagem____css {
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+
+.sobre__habilidade___linguagem____javascript {
+    grid-column: 1/1;
+    grid-row: 3/3;
+}
+
+.sobre__habilidade___linguagem____photoshop {
+    grid-column: 1/1;
+    grid-row: 4/4;
+}
+
+.sobre__habilidade___linguagem____coreldraw {
+    grid-column: 1/1;
+    grid-row: 5/5;
+}
+
+.sobre__habilidade___linguagem____illustrator {
+    grid-column: 1/1;
+    grid-row: 6/6;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt,
+.sobre__habilidade___linguagem____csspcnt,
+.sobre__habilidade___linguagem____javascriptpcnt,
+.sobre__habilidade___linguagem____photoshoppcnt,
+.sobre__habilidade___linguagem____coreldrawpcnt,
+.sobre__habilidade___linguagem____illustratorpcnt {
+    width: 100%;
+    height: 80%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt {
+    grid-column: 2/4;
+    grid-row: 1/1;
+}
+
+.sobre__habilidade___linguagem____csspcnt {
+    grid-column: 2/4;
+    grid-row: 2/2;
+}
+
+.sobre__habilidade___linguagem____javascriptpcnt {
+    grid-column: 2/4;
+    grid-row: 3/3;
+}
+
+.sobre__habilidade___linguagem____photoshoppcnt {
+    grid-column: 2/4;
+    grid-row: 4/4;
+}
+
+.sobre__habilidade___linguagem____coreldrawpcnt {
+    grid-column: 2/4;
+    grid-row: 5/5;
+}
+
+.sobre__habilidade___linguagem____illustratorpcnt {
+    grid-column: 2/4;
+    grid-row: 6/6;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt_____corhtml,
+.sobre__habilidade___linguagem____htmlpcnt_____corcss,
+.sobre__habilidade___linguagem____htmlpcnt_____corjavascript,
+.sobre__habilidade___linguagem____htmlpcnt_____corphotoshop,
+.sobre__habilidade___linguagem____htmlpcnt_____corcoreldraw,
+.sobre__habilidade___linguagem____htmlpcnt_____corillustrator {
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: .7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: red;
+    height: 100%;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt_____corhtml {
+    width: 10%;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt_____corcss {
+    width: 10%;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt_____corjavascript {
+    width: 10%;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt_____corphotoshop {
+    width: 10%;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt_____corcoreldraw {
+    width: 10%;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt_____corillustrator {
+    width: 10%;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt_____corhtml:hover {
+    width: 70%;
+    cursor: pointer;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt_____corcss:hover {
+    width: 80%;
+    cursor: pointer;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt_____corjavascript:hover {
+    width: 30%;
+    cursor: pointer;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt_____corphotoshop:hover {
+    width: 95%;
+    cursor: pointer;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt_____corcoreldraw:hover {
+    width: 50%;
+    cursor: pointer;
+}
+
+.sobre__habilidade___linguagem____htmlpcnt_____corillustrator:hover {
+    width: 40%;
+    cursor: pointer;
+}
