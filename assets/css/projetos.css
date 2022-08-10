@@ -13,7 +13,6 @@
     grid-gap: .7rem;
     grid-template-columns: 240px 240px 240px 240px;
     grid-template-rows: 180px 180px;
-    margin-bottom: 50px;
 }
 
 .projects__grid___itens {
