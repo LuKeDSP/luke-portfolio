@@ -60,7 +60,7 @@
     height: 100%;
     grid-column: 1/1;
     grid-row: 1/1;
-    background-image: url(/assets/img/eu.jpg);
+    background-image: url(../img/eu.jpg);
 }
 
 .projects__grid___item2 {
@@ -68,7 +68,7 @@
     height: 100%;
     grid-column: 2/2;
     grid-row: 1/1;
-    background-image: url(/assets/img/breve.jpg);
+    background-image: url(../img/breve.jpg);
 }
 
 .projects__grid___item3 {
@@ -76,7 +76,7 @@
     height: 100%;
     grid-column: 3/3;
     grid-row: 1/1;
-    background-image: url(/assets/img/breve.jpg);
+    background-image: url(../img/breve.jpg);
 }
 
 .projects__grid___item4 {
@@ -84,7 +84,7 @@
     height: 100%;
     grid-column: 4/4;
     grid-row: 1/1;
-    background-image: url(/assets/img/breve.jpg);
+    background-image: url(../img/breve.jpg);
 }
 
 .projects__grid___item5 {
@@ -92,7 +92,7 @@
     height: 100%;
     grid-column: 1/1;
     grid-row: 2/2;
-    background-image: url(/assets/img/breve.jpg);
+    background-image: url(../img/breve.jpg);
 }
 
 .projects__grid___item6 {
@@ -100,7 +100,7 @@
     height: 100%;
     grid-column: 2/2;
     grid-row: 2/2;
-    background-image: url(/assets/img/breve.jpg);
+    background-image: url(../img/breve.jpg);
 }
 
 .projects__grid___item7 {
@@ -108,7 +108,7 @@
     height: 100%;
     grid-column: 3/3;
     grid-row: 2/2;
-    background-image: url(/assets/img/breve.jpg);
+    background-image: url(../img/breve.jpg);
 }
 
 .projects__grid___item8 {
@@ -116,5 +116,5 @@
     height: 100%;
     grid-column: 4/4;
     grid-row: 2/2;
-    background-image: url(/assets/img/breve.jpg);
+    background-image: url(../img/breve.jpg);
 }
