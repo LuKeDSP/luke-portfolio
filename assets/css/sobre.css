@@ -1,196 +1,183 @@
-.titulos {
-    margin: 0 0 40px 0;
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #fdffff;
-}
-
 .sobre {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100vw;
-    height: calc(100vh - 50px);
+    height: 100vh;
 }
 
-.sobre__bio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 450px;
-}
-
-.sobre__bio p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #cdd1d1;
-}
-
-.sobre__habilidade {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.sobre__habilidade___linguagem {
+.sobre__grid {
     display: grid;
-    align-items: center;
-    grid-template-columns: 100px 150px 150px;
-    grid-template-rows: 35px 35px 35px 35px 35px 35px;;
+    grid-template-columns: 100px 100px 100px 100px 20px 100px 100px 150px;
+    grid-template-rows: 50px 25px 25px 25px 25px 25px 25px;
+    grid-gap: .9rem;
 }
 
-.sobre__habilidade___linguagem____html,
-.sobre__habilidade___linguagem____css,
-.sobre__habilidade___linguagem____javascript,
-.sobre__habilidade___linguagem____photoshop,
-.sobre__habilidade___linguagem____coreldraw,
-.sobre__habilidade___linguagem____illustrator {
-    font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
+.sobre__grid h1 {
+    font-size: 1.2rem;
+    color: #cfd1d1;
 }
 
-.sobre__habilidade___linguagem____html {
-    grid-column: 1/1;
+.sobre__grid___biotitulo {
+    grid-column: 2/4;
     grid-row: 1/1;
 }
 
-.sobre__habilidade___linguagem____css {
-    grid-column: 1/1;
+.sobre__grid___skillstitulo {
+    grid-column: 6/8;
+    grid-row: 1/1;
+}
+
+.sobre__grid___biodesc {
+    grid-column: 1/5;
+    grid-row: 2/8;
+}
+
+.sobre__grid___biodesc p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #cfd1d1;
+}
+
+.sobre__grid___liguagemhtml,
+.sobre__grid___liguagemcss,
+.sobre__grid___liguagemjs,
+.sobre__grid___liguagemps,
+.sobre__grid___liguagemcd,
+.sobre__grid___liguagemil {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    text-align: end;
+    font-weight: bolder;
+    font-size: .9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #cfd1d1;
+}
+
+.sobre__grid___liguagemhtml {
+    grid-column: 6/6;
     grid-row: 2/2;
 }
 
-.sobre__habilidade___linguagem____javascript {
-    grid-column: 1/1;
+.sobre__grid___liguagemcss {
+    grid-column: 6/6;
     grid-row: 3/3;
 }
 
-.sobre__habilidade___linguagem____photoshop {
-    grid-column: 1/1;
+.sobre__grid___liguagemjs {
+    grid-column: 6/6;
     grid-row: 4/4;
 }
 
-.sobre__habilidade___linguagem____coreldraw {
-    grid-column: 1/1;
+.sobre__grid___liguagemps {
+    grid-column: 6/6;
     grid-row: 5/5;
 }
 
-.sobre__habilidade___linguagem____illustrator {
-    grid-column: 1/1;
+.sobre__grid___liguagemcd {
+    grid-column: 6/6;
     grid-row: 6/6;
 }
 
-.sobre__habilidade___linguagem____htmlpcnt,
-.sobre__habilidade___linguagem____csspcnt,
-.sobre__habilidade___linguagem____javascriptpcnt,
-.sobre__habilidade___linguagem____photoshoppcnt,
-.sobre__habilidade___linguagem____coreldrawpcnt,
-.sobre__habilidade___linguagem____illustratorpcnt {
+.sobre__grid___liguagemil {
+    grid-column: 6/6;
+    grid-row: 7/7;
+}
+
+.sobre__grid___liguagem____background1,
+.sobre__grid___liguagem____background2,
+.sobre__grid___liguagem____background3,
+.sobre__grid___liguagem____background4,
+.sobre__grid___liguagem____background5,
+.sobre__grid___liguagem____background6 {
+    display: flex;
+    align-items: center;
     width: 100%;
-    height: 80%;
+    height: 100%;
     border-radius: 10px;
     background-color: #13161d;
 }
 
-.sobre__habilidade___linguagem____htmlpcnt {
-    grid-column: 2/4;
-    grid-row: 1/1;
-}
-
-.sobre__habilidade___linguagem____csspcnt {
-    grid-column: 2/4;
+.sobre__grid___liguagem____background1 {
+    grid-column: 7/9;
     grid-row: 2/2;
 }
 
-.sobre__habilidade___linguagem____javascriptpcnt {
-    grid-column: 2/4;
+.sobre__grid___liguagem____background2 {
+    grid-column: 7/9;
     grid-row: 3/3;
 }
 
-.sobre__habilidade___linguagem____photoshoppcnt {
-    grid-column: 2/4;
+.sobre__grid___liguagem____background3 {
+    grid-column: 7/9;
     grid-row: 4/4;
 }
 
-.sobre__habilidade___linguagem____coreldrawpcnt {
-    grid-column: 2/4;
+.sobre__grid___liguagem____background4 {
+    grid-column: 7/9;
     grid-row: 5/5;
 }
 
-.sobre__habilidade___linguagem____illustratorpcnt {
-    grid-column: 2/4;
+.sobre__grid___liguagem____background5 {
+    grid-column: 7/9;
     grid-row: 6/6;
 }
 
-.sobre__habilidade___linguagem____htmlpcnt_____corhtml,
-.sobre__habilidade___linguagem____htmlpcnt_____corcss,
-.sobre__habilidade___linguagem____htmlpcnt_____corjavascript,
-.sobre__habilidade___linguagem____htmlpcnt_____corphotoshop,
-.sobre__habilidade___linguagem____htmlpcnt_____corcoreldraw,
-.sobre__habilidade___linguagem____htmlpcnt_____corillustrator {
-    height: 100%;
-    transition: 0.3s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.sobre__grid___liguagem____background6 {
+    grid-column: 7/9;
+    grid-row: 7/7;
+}
+
+.sobre__grid___linguagem____background_____porcentagemhtml,
+.sobre__grid___linguagem____background_____porcentagemcss,
+.sobre__grid___linguagem____background_____porcentagemjs,
+.sobre__grid___linguagem____background_____porcentagemps,
+.sobre__grid___linguagem____background_____porcentagemcd,
+.sobre__grid___linguagem____background_____porcentagemil {
     border-radius: 10px;
-    font-weight: bolder;
-    font-size: .7rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #cdd1d1;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: #0f4156;
 }
 
-.sobre__habilidade___linguagem____htmlpcnt_____corhtml {
-    width: 10%;
-}
-
-.sobre__habilidade___linguagem____htmlpcnt_____corcss {
-    width: 10%;
-}
-
-.sobre__habilidade___linguagem____htmlpcnt_____corjavascript {
-    width: 10%;
-}
-
-.sobre__habilidade___linguagem____htmlpcnt_____corphotoshop {
-    width: 10%;
-}
-
-.sobre__habilidade___linguagem____htmlpcnt_____corcoreldraw {
-    width: 10%;
-}
-
-.sobre__habilidade___linguagem____htmlpcnt_____corillustrator {
-    width: 10%;
-}
-
-.sobre__habilidade___linguagem____htmlpcnt_____corhtml:hover {
-    width: 70%;
-    cursor: pointer;
-}
-
-.sobre__habilidade___linguagem____htmlpcnt_____corcss:hover {
+.sobre__grid___linguagem____background_____porcentagemhtml {
     width: 80%;
-    cursor: pointer;
 }
 
-.sobre__habilidade___linguagem____htmlpcnt_____corjavascript:hover {
+.sobre__grid___linguagem____background_____porcentagemcss {
+    width: 85%;
+}
+
+.sobre__grid___linguagem____background_____porcentagemjs {
     width: 30%;
-    cursor: pointer;
 }
 
-.sobre__habilidade___linguagem____htmlpcnt_____corphotoshop:hover {
+.sobre__grid___linguagem____background_____porcentagemps {
     width: 95%;
-    cursor: pointer;
 }
 
-.sobre__habilidade___linguagem____htmlpcnt_____corcoreldraw:hover {
-    width: 50%;
-    cursor: pointer;
+.sobre__grid___linguagem____background_____porcentagemcd {
+    width: 45%;
 }
 
-.sobre__habilidade___linguagem____htmlpcnt_____corillustrator:hover {
-    width: 40%;
-    cursor: pointer;
+.sobre__grid___linguagem____background_____porcentagemil {
+    width: 25%;
 }
+
+.sobre__grid___linguagem____background_____porcentagemhtml p,
+.sobre__grid___linguagem____background_____porcentagemcss p,
+.sobre__grid___linguagem____background_____porcentagemjs p,
+.sobre__grid___linguagem____background_____porcentagemps p,
+.sobre__grid___linguagem____background_____porcentagemcd p,
+.sobre__grid___linguagem____background_____porcentagemil p {
+    margin: 0 10px 0 0;
+    font-weight: bolder;
+    font-size: .8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #cfd1d1;
+} 

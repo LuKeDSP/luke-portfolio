@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    background-color: #0a293e;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.titulos {
+    margin: 0 0 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #cfd1d1;
+}
