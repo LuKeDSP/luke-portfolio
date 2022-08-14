@@ -1,0 +1,31 @@
+.contactme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contactme__grid {
+    display: grid;
+    grid-template-columns: 150px 150px 50px 150px 150px;
+    grid-template-rows: 50px 25px 25px 25px 25px 25px 25px 25px;
+    grid-gap: .9rem;
+    /* background-color: red; */
+}
+
+.contactme__grid___social {
+    grid-column: 1/3;
+    grid-row: 1/1;
+}
+
+.contactme__grid___contact {
+    grid-column: 4/6;
+    grid-row: 1/1;
+}
+
+.contactme__grid___social h1,
+.contactme__grid___contact h1 {
+    font-size: 1.2rem;
+}
