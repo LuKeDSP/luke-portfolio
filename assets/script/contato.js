@@ -21,8 +21,12 @@ function github() {
 function linkedin() {
     window.document.getElementById('txtli').onclick = window.open("https://www.linkedin.com/in/lucas-pilatti-4957841bb/", "_blank");
 }
+function whatsapp() {
+    window.document.getElementById('txtwpp').onclick = window.open("https://wa.me/5548991408062", "_blank");
+}
 
 insta.addEventListener("click", instagram);
 face.addEventListener("click", facebook);
 gh.addEventListener("click", github);
 linked.addEventListener("click", linkedin);
+whats.addEventListener("click", whatsapp);
